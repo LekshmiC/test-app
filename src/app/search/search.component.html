@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Find Your Hotel</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+
+        <li class="nav-item active">
+            <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+            <label>Start Date</label>
+          </li>
+      <li class="nav-item active">
+        <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+        <input class="form-control mr-sm-2" type="Date" placeholder="Start Date" style="color:aliceblue">
+      </li>
+      <li class="nav-item active">
+          <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+          <label>End Date</label>
+        </li>
+      <li class="nav-item">
+        <!-- <a class="nav-link" href="#">Features</a> -->
+        <input class="form-control mr-sm-2" type="Date" placeholder="End Date" style="color:aliceblue">
+      
+      </li>
+      <li class="nav-item active">
+          <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+          <label>Location</label>
+        </li>
+
+      <li class="nav-item">
+          <div class="md-form">
+        <!-- <a class="nav-link" href="#">Features</a> -->
+        <input mdbInputDirective  class="form-control mr-sm-2" type="text" placeholder="Search Location" style="color:aliceblue">
+      </div>
+      </li>
+      <li class="nav-item active">
+          <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+          <label>Rooms</label>
+        </li>
+      <li class="nav-item">
+        <!-- <a class="nav-link" href="#">Disabled</a> -->
+        <div class="btn-group" dropdown>
+            <button type="button" class="btn btn-dark waves-light" mdbWavesEffect>--Select--</button>
+            <button type="button" dropdownToggle class="btn btn-dark dropdown-toggle dropdown-toggle-split px-3 waves-light" mdbWavesEffect></button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">1 Room, 1 Adult</a>
+                <a class="dropdown-item" href="#">1 Room, 2 Adult</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <form class="form-inline  waves-light" mdbRippleRadius>
+    <!-- <input class="form-control mr-sm-2" type="button" placeholder="Search"> -->
+    <button type="button" class="btn btn-dark">search</button>
+</form>
+
+</nav>
